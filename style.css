@@ -73,12 +73,12 @@ body{
   color: #fff;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   #hero h1 {
     font-size: 3em;
     line-height: 36px;
   }
-}
+}*/
 
 #hero h2 {
   color: #eee;
@@ -87,14 +87,14 @@ body{
 font-family: 'Open Sans Condensed', sans-serif;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
-  }
-}
+  }}
 
+*/
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
