@@ -283,12 +283,14 @@ footer.page-footer  {
 
 /* unvisited link */
 a:link {
-    color: white;
+    color: black;
 }
+
+
 
 /* visited link */
 a:visited {
-    color: white;
+    color: black;
 }
 
 /* mouse over link */
@@ -302,6 +304,16 @@ a:active {
 }
 
 
+
+
+.fa-facebook-square:before {
+
+    color: white;
+}
+
+ a.wana:link{
+    color: white;
+}
 
 .fonty1{
 	font-size: 30px;
