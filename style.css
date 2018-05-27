@@ -20,6 +20,12 @@ body{
 }
 
 
+.navbar-expand-md .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row-reverse;
+}
+
+
 
 
 #hero {
@@ -306,9 +312,17 @@ a:active {
     color: white;
 }
 
- a.wana:link{
+ a.wana:link,
+ a.wana:before,
+ a.wana:visited,
+ a.wana:hover{
     color: white;
 }
+
+
+
+
+ 
 
 .fonty1{
 	font-size: 30px;
@@ -316,6 +330,14 @@ a:active {
 
 }
 
+
+
+hr.fades {
+  height: 3px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #fff inset;
+  border-radius: 50px  ;
+}
 
 
 /* iphone 5 Retina Display: for portrait */
