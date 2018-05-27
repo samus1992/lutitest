@@ -285,7 +285,13 @@ footer.page-footer  {
 a:link {
     color: black;
 }
+/* iphone 5 Retina Display: for portrait */
+@media screen and (device-aspect-ratio: 40/71) and (max-device-width: 640px) and (orientation:portrait) {}
 
+/* iPhone 5 Retina Display: for landscape*/
+@media screen and (device-aspect-ratio: 40/71) and (max-device-width: 640px) and (orientation:landscape) {}
+/* iphone 4*/
+@media screen and (device-aspect-ratio: 2/3) {}
 
 
 /* visited link */
