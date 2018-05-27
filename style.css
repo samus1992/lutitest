@@ -1,11 +1,5 @@
 
-/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
-html,
-body,
-.view {
-  height: 100%;
 
-   }
 body{
 
 	 background-image: url("bg/6.png");
@@ -285,13 +279,6 @@ footer.page-footer  {
 a:link {
     color: black;
 }
-/* iphone 5 Retina Display: for portrait */
-@media screen and (device-aspect-ratio: 40/71) and (max-device-width: 640px) and (orientation:portrait) {}
-
-/* iPhone 5 Retina Display: for landscape*/
-@media screen and (device-aspect-ratio: 40/71) and (max-device-width: 640px) and (orientation:landscape) {}
-/* iphone 4*/
-@media screen and (device-aspect-ratio: 2/3) {}
 
 
 /* visited link */
@@ -326,3 +313,14 @@ a:active {
 	font-family: 'Dosis', sans-serif;
 
 }
+
+
+
+/* iphone 5 Retina Display: for portrait */
+@media screen and (device-aspect-ratio: 40/71) and (max-device-width: 640px) and (orientation:portrait) {}
+
+/* iPhone 5 Retina Display: for landscape*/
+@media screen and (device-aspect-ratio: 40/71) and (max-device-width: 640px) and (orientation:landscape) {}
+/* iphone 4*/
+@media screen and (device-aspect-ratio: 2/3) {}
+
