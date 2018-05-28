@@ -72,6 +72,7 @@
 
 
 
+// to the top
       // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
@@ -88,3 +89,65 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+
+
+// end to the top
+
+//parallax js
+// $(document).ready(function(){
+//   var $window = $(window);
+//     $('section[data-type="background"]').each(function(){
+//         var $bgobj = $(this); // assigning the object
+    
+//         $(window).scroll(function() {
+//             var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+            
+//             // Put together our final background position
+//             var coords = '50% '+ yPos + 'px';
+
+//             // Move the background
+//             $bgobj.css({ backgroundPosition: coords });
+//         }); 
+//     });    
+// });
+
+// //menu transition js
+// $(document).ready(function(){
+//   $(window).scroll(function(){
+//     var scroll = $(window).scrollTop();
+//         if (scroll > 0) {
+//       $(".navbar").addClass("navbar-scroll");
+//         }
+//         else{
+//       $(".navbar").removeClass("navbar-scroll");    
+//     }
+//     if (scroll > 200) {
+//       $(".navbar").addClass("bg-light");
+//     }
+
+//     else{
+//       $(".navbar").removeClass("bg-light");   
+//     }
+//   })
+// })
+
+
+jQuery('document').ready( function($) {
+    $('.gallery-filters li').on('click', function() {
+        $('.gallery-filters li').removeClass('active');
+        $(this).addClass('active');
+        filter = $(this).attr('gallery-filter');
+
+        $('.gallery-img-holder').each( function() {
+            if (filter == 'all') {
+                $(this).fadeIn(); 
+            } else {
+                $(this).hide();
+                if ($(this).attr('filter-category') == filter) {
+                    $(this).fadeIn();
+                }
+            }
+        });
+    });
+});

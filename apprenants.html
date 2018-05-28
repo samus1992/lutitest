@@ -7,6 +7,8 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  
 
 <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
@@ -34,7 +36,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse " id="Navi_trgt">
-    <div class="navbar-nav ml-auto">
+    <div class="navbar-nav ml-auto text-center d-flex align-items-center">
       <a class="nav-item nav-link " href="index.html">Inicio</a>
       <a class="nav-item nav-link" href="aide.html">Les types d'aide  <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="benevoles.html">Les Bénevoles</a>
@@ -55,71 +57,63 @@
 <div class="container mt-4">
 
 
-      <p>94 personnes ont demandé l'aide de LUTILLE au cours de la saison passée. </p>
+      <div>94 personnes ont demandé l'aide de LUTILLE au cours de la saison passée. </div>
+      <div>Les apprenants sont d'origine culturelle et sociale très variée.
+      Il en est de même pour leur âge. </div>
 
-      <p>Les apprenants sont d'origine culturelle et sociale très variée.
-      Il en est de même pour leur âge. </p>
-
-      <p>On trouve en effet aussi bien des personnes en provenance de la métropole
-      que d'autres arrivant des pays du Maghreb, des pays de l'Est ou d'ailleurs. </p>
+      <div>On trouve en effet aussi bien des personnes en provenance de la métropole
+      que d'autres arrivant des pays du Maghreb, des pays de l'Est ou d'ailleurs. </div>
 
       Ils sont répartis dans le département comme indiqué sur la carte ci-contre
-        <div class="container">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">
-               Cliquer ici pour l'agrandir
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div id="map" class="modal-body modal-lg">
-                     
-                <div >
-                  
-                </div>
-                  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtzABn0jRFggna1np1YZvxe4lJj3aD5W0&libraries=places&callback=initMap" async defer></script>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-
-  
-
- <p>Même si une majorité est de condition sociale modeste, certaines personnes, très cultivées dans leur pays d'origine, demandent notre aide pour apprendre le français ou pour le parler mieux. </p>
-
- <p>Enfin, on trouve des jeunes à partir de 6 ans dans le cadre de l'accompagnement à la scolarité et des adultes de tout âge. </p>
-
- <p>Les apprenants peuvent, selon leur choix, être intégrés dans un groupe ou bien être en tête-à-tête avec le bénévole. </p>
-
- <p>Les horaires des cours sont établis d'un commun accord entre l'apprenant et le bénévole. Le lieu où sont donnés les cours se trouve en terrain neutre (une mairie, une maison de la culture ou tout autre salle mise à notre disposition dans la commune de l'apprenant). </p>
-
- <p>Les buts des apprenants sont également nombreux : </p>
 
 
-<ul class="listy">
- <li> <i class="em em-fr"></i>  Intégration dans la société française (pour les personnes d'origine étrangère)   </li>
-     <li> <i class="em em-cityscape"></i>  Accès à l'emploi   </li>
-     <li><i class="em em-books"></i>  Aide aux enfants scolarisés  </li>
-     <li> <i class="em em-congratulations"></i>  Culture personnelle  </li>
-     <li> <i class="em em-triangular_flag_on_post"></i>  Autres</li>
+
+<p>
+ 
+ <div class="d-flex justify-content-center">
+     <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Cliquez moi! 
+  </button>
+ </div>  
+
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+      <div class="text-center">
+         <img src="src/map.jpg" class="rounded" alt="...">
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+ <div>Même si une majorité est de condition sociale modeste, certaines personnes, très cultivées dans leur pays d'origine, demandent notre aide pour apprendre le français ou pour le parler mieux. </div>
+
+ <div>Enfin, on trouve des jeunes à partir de 6 ans dans le cadre de l'accompagnement à la scolarité et des adultes de tout âge. </div>
+
+ <div>Les apprenants peuvent, selon leur choix, être intégrés dans un groupe ou bien être en tête-à-tête avec le bénévole. </div>
+
+ <div>Les horaires des cours sont établis d'un commun accord entre l'apprenant et le bénévole. Le lieu où sont donnés les cours se trouve en terrain neutre (une mairie, une maison de la culture ou tout autre salle mise à notre disposition dans la commune de l'apprenant). </div>
+
+ <div>Les buts des apprenants sont également nombreux : </div>
+
+
+
+<ul class="listy mt-4">
+ <li> <h5><i class="em em-fr"></i>  Intégration dans la société française (pour les personnes d'origine étrangère) </h5>  </li>
+     <li><h5> <i class="em em-cityscape"></i>  Accès à l'emploi  </h5>  </li>
+     <li><h5><i class="em em-books"></i>  Aide aux enfants scolarisés </h5>  </li>
+     <li> <h5><i class="em em-congratulations"></i>  Culture personnelle </h5>  </li>
+     <li> <h5><i class="em em-triangular_flag_on_post"></i>  Autres</h5> </li>
 
 </ul>
 
 
  </div>
+
 
 
 
@@ -235,7 +229,13 @@
 
 
 
+<script>
+  // MDB Lightbox Init
+$(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
 
+</script>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

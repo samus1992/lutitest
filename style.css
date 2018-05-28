@@ -7,11 +7,11 @@ body{
     font-family: 'Barlow', sans-serif;
 }
 
-
+/*
 #whites{
 	background-color: white;
 
-}
+}*/
 
 
 .sacra{
@@ -20,11 +20,13 @@ body{
 }
 
 
-#aide{
+/*#aide{
   height: auto;
+}*/
+
+#just{
+  text-align: justify;
 }
-
-
 
 #hero {
   width: 100%;
@@ -211,13 +213,22 @@ table th
 	text-align:center;
 }
 
-.col1
+#col1
 {
 	
 	justify-content: center;
 	text-align:center;
 	
 
+}
+
+
+.colun
+{
+  
+  justify-content: center;
+  text-align:center;
+  
 }
 
 .col2
@@ -346,3 +357,30 @@ hr.fades {
 /* iphone 4*/
 @media screen and (device-aspect-ratio: 2/3) {}
 
+
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+#image {
+  min-height:200px;
+}
